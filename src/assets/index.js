@@ -37,7 +37,28 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+
+import dio from "./certification/dio.png";
+import estacio from "./certification/estacio.png";
+import havard from "./certification/havard.png";
+import udemy from "./certification/udemy.png";
+import ufal from "./certification/ufal.png";
+
+
+
+import ecommerce from "./projects/ecommerce.png";
+import extencao from "./projects/extencao.png";
+import playstation from "./projects/playstation.png";
+
 export {
+  ecommerce,
+  extencao,
+  playstation,
+  dio,
+  estacio,
+  havard,
+  udemy,
+  ufal,
   logo,
   backend,
   creator,
