@@ -23,8 +23,20 @@ import {
   jobit,
   tripguide,
   threejs,
+  aws,
+  spring,
+  postgre,
+  angular,
+  java
 } from "../assets";
 
+
+/* aws,
+  postgre,
+  angular,
+  spring,
+  java
+ */
 export const navLinks = [
   {
     id: "about",
@@ -46,7 +58,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
@@ -54,7 +66,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Extension Developer",
     icon: creator,
   },
 ];
@@ -73,6 +85,10 @@ const technologies = [
     icon: javascript,
   },
   {
+    name: "angular",
+    icon: angular,
+  },
+  {
     name: "TypeScript",
     icon: typescript,
   },
@@ -81,36 +97,28 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "java",
+    icon: java,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "aws",
+    icon: aws,
+  },
+  {
+    name: "spring",
+    icon: spring,
+  },
+  {
+    name: "postgre",
+    icon: postgre,
   },
 ];
 
