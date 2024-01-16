@@ -50,7 +50,18 @@ import ecommerce from "./projects/ecommerce.png";
 import extencao from "./projects/extencao.png";
 import playstation from "./projects/playstation.png";
 
+
+import githubIcon from "./connect/github.png";
+import linkedinIcon from "./connect/linkedin.png"
+
+import email from "./footer/email.png";
+import whats from "./footer/whatsapp.png";
+
 export {
+  email,
+  whats,
+  githubIcon,
+  linkedinIcon,
   ecommerce,
   extencao,
   playstation,

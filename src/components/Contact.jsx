@@ -1,127 +1,91 @@
-import { useState, useRef } from 'react'
-import { motion } from 'framer-motion'
-import emailjs from '@emailjs/browser'
-import { slideIn } from '../utils/motion';
-import { styles } from '../styles';
-import { SectionWrapper } from '../hoc';
-import { EarthCanvas } from './canvas';
+import { useState, useRef } from "react";
+import { motion } from "framer-motion";
+import emailjs from "@emailjs/browser";
+import { slideIn } from "../utils/motion";
+import { styles } from "../styles";
+import { SectionWrapper } from "../hoc";
+import { EarthCanvas } from "./canvas";
 
-
-///template_fg84kbf
-///service_dgr2wng
-///QSuN4C297S5q2dnq4
+import { githubIcon, linkedinIcon, email, whats } from "../assets/index";
 
 const Contact = () => {
-  const formRef = useRef();
-  const [form, setForm] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-  const [loading, setLoading] = useState(false)
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-
-    setForm({ ...form, [name]: value })
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setLoading(true)
-
-    emailjs.send('service_dgr2wng', 'template_fg84kbf',
-    {
-      from_name: form.name,
-      to_name:"Vinícius",
-      from_email:form.email,
-      to_email:'vinicius.omena@fis.ufal.br',
-      message: form.message,
-    },'QSuN4C297S5q2dnq4'
-    ).then(() => {
-      alert("Obrigado! Em breve entrarei em contato com você")
-      setLoading(false)
-      setForm({
-        name:'',
-        email:'',
-        message:'',
-      })
-    }, (err) => {
-      console.log(err)
-      setLoading(false)
-      alert("Ocorreu um erro com sua mensagem")
-    })
-  }
-
   return (
-    <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
-
+    <div className="flex-col-reverse flex gap-10 overflow-hidden">
       <motion.div
-        variants={slideIn('left','tween', 0.2,1 )}
+        variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <div className="flex flex-row justify-around content-center">
+          <ul className="p-5 ">
+            <h3 className={`${styles.sectionSubText} `}>Contato</h3>
+            <li className="mb-3 border-t-4 pt-5">
+              <a
+                href="https://wa.me/5582999572271"
+                title="Contato via WhatsApp"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="inline-block">
+                  <img src={whats} alt="" srcset="" />
+                </span>{" "}
+                <p className="inline-block">Telefone :</p>
+                <p>+55 (82) 99957-2271</p>
+              </a>
+            </li>
 
-        <form
-          ref={formRef}
-          onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'
-        >
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Name</span>
-            <input type="text"
-              name='name'
-              value={form.name}
-              onChange={handleChange}
-              placeholder="What's your name?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
-              
-            />
-          </label>
+            <li>
+              <a
+                title="Contato por e-mail"
+                href="mailto:amorimvinicius3@gmail.com"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <span className="inline-block">
+                  <img src={email} alt="" srcset="" />
+                </span>{" "}
+                <p className="inline-block">Email :</p>
+                <p>amorimvinicius3@gmail.com</p>
+              </a>
+            </li>
+          </ul>
 
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Email</span>
-            <input type="email"
-              name='email'
-              value={form.email}
-              onChange={handleChange}
-              placeholder="What's your email?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
-              
-            />
-          </label>
+          <ul className="p-5 ">
+            <h3 className={`${styles.sectionSubText} `}>Social</h3>
+            <div className='flex mb-3 border-t-4 pt-5 gap-5'>
+              <li className=" m-auto ">
+                <a
+                  href="https://www.linkedin.com/in/viniciusaamorim/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={linkedinIcon} className="h-10" alt="" srcset="" />
+                </a>
+              </li>
 
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>Your Message</span>
-            <textarea
-              rows='7'
-              name='message'
-              value={form.message}
-              onChange={handleChange}
-              placeholder="What do you want to say"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
-              
-            />
-          </label>
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 outline-none w-fit rounded-xl text-white font-bold shadow-md shadow-primary'
-          >
-            {loading ? 'Sending...':'Send'}
-          </button>
+              <li className=" m-auto">
+                <a
+                  href="https://github.com/3vinicius"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={githubIcon} alt="" className="h-10" srcset="" />
+                </a>
+              </li>
+            </div>
+          </ul>
 
-        </form>
+         
+        </div>
       </motion.div>
 
       <motion.div
-        variants={slideIn('right','tween', 0.2,1 )}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
-        <EarthCanvas/>
+        <EarthCanvas />
       </motion.div>
     </div>
-  )
-}
+  );
+};
 
-export default SectionWrapper(Contact, "contact")
+export default SectionWrapper(Contact, "contact");
