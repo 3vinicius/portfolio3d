@@ -15,7 +15,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black p-8 rounded-2xl border"
       >
-        <div className="flex flex-row justify-around content-center">
+        <div className="flex flex-row justify-around content-center  responsive-contac" >
           <ul className="p-5 ">
             <h3 className={`${styles.sectionSubText} `}>Contato</h3>
             <li className="mb-3 border-t-4 pt-5">

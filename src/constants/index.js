@@ -8,20 +8,12 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   aws,
   spring,
@@ -39,12 +31,7 @@ import {
 } from "../assets";
 
 
-/* aws,
-  postgre,
-  angular,
-  spring,
-  java
- */
+
 export const navLinks = [
   {
     id: "about",
@@ -138,15 +125,13 @@ const experiences = [
   {
     title: "Graduação em Física",
     company_name: "UFAL",
-    icon: meta,
     img: ufal,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Jan 2022 - Concluido",
   },
   {
     title: "Graduação em Análise e Desenvolvimento de Sistemas",
     company_name: "Estácio",
-    icon: meta,
     iconBg: "#E6DEDD",
     img: estacio,
     date: "Nov 2022 - Em andamento",
@@ -154,7 +139,6 @@ const experiences = [
   {
     title: "CS50's Introduction to Computer Science",
     company_name: "Havard University",
-    icon: starbucks,
     img: havard,
     iconBg: "#383E56",
     date: "Dez 2022 - Concluido",
@@ -162,7 +146,6 @@ const experiences = [
   {
     title: "Santander Bootcamp 2023 - Fullstack Java+Angular",
     company_name: "DIO",
-    icon: tesla,
     img: dio,
     iconBg: "#E6DEDD",
     date: "Out 2023 - Concluido",
@@ -170,7 +153,6 @@ const experiences = [
   {
     title: "Curso de React.Js e Next.Js",
     company_name: "UDEMY",
-    icon: shopify,
     img: udemy,
     iconBg: "#383E56",
     date: "Junh 2023 - Concluido",
