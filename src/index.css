@@ -4,6 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 * {
   margin: 0;
   padding: 0;
@@ -41,6 +43,13 @@
     #804dee 0%,
     rgba(60, 51, 80, 0) 100%
   );
+}
+
+
+.blue-gradient{
+  background: #0066CC;
+    background: linear-gradient(-90deg, #0066CC 0%, rgba(60, 51, 80, 0) 100%);
+    background: -webkit-linear-gradient( -90deg, #0066CC 0%, rgba(60, 51, 80, 0) 100% );
 }
 
 .green-pink-gradient {
