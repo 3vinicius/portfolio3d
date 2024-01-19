@@ -50,6 +50,8 @@ import linkedinIcon from "./connect/linkedin.png"
 import email from "./footer/email.png";
 import whats from "./footer/whatsapp.png";
 
+import myImg from "./myImg.png"
+
 export {
   email,
   whats,
@@ -88,5 +90,6 @@ export {
   postgre,
   angular,
   spring,
-  java
+  java,
+  myImg
 };

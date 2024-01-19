@@ -27,7 +27,7 @@ import {
   udemy,
   playstation,
   extencao,
-  ecommerce
+  ecommerce,
 } from "../assets";
 
 

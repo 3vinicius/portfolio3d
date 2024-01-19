@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
+import {myImg} from "../assets/index";
+
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto bg-black">
@@ -24,7 +26,7 @@ const Hero = () => {
           </p>
         </div>
         <div className=" w-72  h-72 right-0" >
-          <img className="w-max h-max rounded-full"  src="/src/assets/myImg.png" alt="" />
+          <img className="w-max h-max rounded-full"  src={myImg} alt="" />
         </div>
       </div>
 
