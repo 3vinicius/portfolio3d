@@ -1,9 +1,9 @@
-# Portifolio 3d
-Esse repositrio contém meu protifolio 
+# Portfolio 3d
+Esse repositrio contém meu protfolio 
 
 Ele foi contruido usando React e Tailwind
 
-![image](https://github.com/3vinicius/portifolio3d/assets/63747127/b99e25e5-1569-4551-aba1-1aae1b16698e)
+![image](https://github.com/3vinicius/portfolio3d/assets/63747127/b99e25e5-1569-4551-aba1-1aae1b16698e)
 <a href="https://3viniciusportifolio.netlify.app"  target="blank">site</a>
 
 
