@@ -24,13 +24,13 @@ const Hero = () => {
           </p>
         </div>
         <div className=" w-72  h-72 right-0" >
-          <img className="w-max h-max rounded-full"  src="/src/assets/myImg.jfif" alt="" />
+          <img className="w-max h-max rounded-full"  src="/src/assets/myImg.jpg" alt="" />
         </div>
       </div>
 
 
 
-      <ComputersCanvas />
+      <ComputersCanvas/>
 
 
       <div className="absolute xs:bottom-10 bottom-20 w-full flex justify-center items-center">
