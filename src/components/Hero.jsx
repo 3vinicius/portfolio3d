@@ -24,7 +24,7 @@ const Hero = () => {
           </p>
         </div>
         <div className=" w-72  h-72 right-0" >
-          <img className="w-max h-max rounded-full"  src="/src/assets/myImg.jpg" alt="" />
+          <img className="w-max h-max rounded-full"  src="/src/assets/myImg.png" alt="" />
         </div>
       </div>
 
