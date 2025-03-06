@@ -30,13 +30,14 @@ import java from "./tech/java.svg";
 
 
 
-
 import dio from "./certification/dio.png";
 import estacio from "./certification/estacio.png";
 import havard from "./certification/havard.png";
 import udemy from "./certification/udemy.png";
 import ufal from "./certification/ufal.png";
-
+import prefeitura from "./certification/prefeitura.png";
+import posAnalise from "./certification/posAnalise.png";
+import posEnge from "./certification/posEng.png";
 
 
 import ecommerce from "./projects/ecommerce.png";
@@ -94,5 +95,8 @@ export {
   java,
   myImg,
   louveApp,
-  pokedex
+  pokedex,
+  prefeitura,
+  posAnalise,
+  posEnge
 };

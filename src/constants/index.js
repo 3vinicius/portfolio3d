@@ -29,7 +29,10 @@ import {
   extencao,
   ecommerce,
   louveApp,
-  pokedex
+  pokedex,
+  prefeitura,
+  posAnalise,
+  posEnge
 } from "../assets";
 
 
@@ -74,20 +77,20 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
     name: "angular",
     icon: angular,
+  },
+  {
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "spring",
+    icon: spring,
+  },
+  {
+    name: "postgre",
+    icon: postgre,
   },
   {
     name: "TypeScript",
@@ -106,44 +109,52 @@ const technologies = [
     icon: git,
   },
   {
-    name: "java",
-    icon: java,
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
   },
   {
     name: "aws",
     icon: aws,
   },
-  {
-    name: "spring",
-    icon: spring,
-  },
-  {
-    name: "postgre",
-    icon: postgre,
-  },
+
 ];
 
 const experiences = [
   {
-    title: "Graduação em Física",
-    company_name: "UFAL",
-    img: ufal,
+    title: "Pos graduação em  Análise de Dados",
+    company_name: "Descomplica",
+    img: posAnalise,
+    iconBg: "#E6DEDD",
+    date: "Fev 2025",
+  },
+  {
+    title: "Pos graduação em Engenharia de Software",
+    company_name: "Descomplica",
+    img: posEnge,
     iconBg: "#383E56",
-    date: "Jan 2022 - Concluido",
+    date: "Fev 2025",
+  },
+  {
+    title: "Estágio em Desenvolvimento de Sistemas",
+    company_name: "DIRETORIA DE TECNOLOGIA DA INFORMAÇÃO (DTI)",
+    img: prefeitura,
+    iconBg: "#E6DEDD",
+    date: "Jun 2024",
   },
   {
     title: "Graduação em Análise e Desenvolvimento de Sistemas",
     company_name: "Estácio",
-    iconBg: "#E6DEDD",
-    img: estacio,
-    date: "Nov 2022 - Em andamento",
-  },
-  {
-    title: "CS50's Introduction to Computer Science",
-    company_name: "Havard University",
-    img: havard,
     iconBg: "#383E56",
-    date: "Dez 2022 - Concluido",
+    img: estacio,
+    date: "Mar 2025 - Concluido",
   },
   {
     title: "Santander Bootcamp 2023 - Fullstack Java+Angular",
@@ -159,28 +170,27 @@ const experiences = [
     iconBg: "#383E56",
     date: "Junh 2023 - Concluido",
   },
+  {
+    title: "Graduação em Física",
+    company_name: "UFAL",
+    img: ufal,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - Concluido",
+  },
+  {
+    title: "CS50's Introduction to Computer Science",
+    company_name: "Havard University",
+    img: havard,
+    iconBg: "#383E56",
+    date: "Dez 2022 - Concluido",
+  },
+
   
 ];
 
 
 const projects = [
-  {
-    name: "PokedexAngular",
-    description:
-         "Este projeto consiste em uma aplicação que permite buscar informações detalhadas sobre Pokémon. Através de uma interface simples, o usuário pode realizar pesquisas por nome , visualizar suas características e dados relevantes, como tipo, habilidades e estatísticas.",
-    tags: [
-      {
-        name: "Angular",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Integração com API",
-        color: "green-text-gradient",
-      }
-    ],
-    image: pokedex,
-    source_code_link: "https://github.com/3vinicius/pokedex-angular/tree/main",
-  },
+ 
 {
     name: "LouveFeedback",
     description:
@@ -214,6 +224,23 @@ const projects = [
     ],
     image: playstation,
     source_code_link: "https://github.com/3vinicius/angular-psn-store-clone",
+  },
+  {
+    name: "PokedexAngular",
+    description:
+         "Este projeto consiste em uma aplicação que permite buscar informações detalhadas sobre Pokémon. Através de uma interface simples, o usuário pode realizar pesquisas por nome , visualizar suas características e dados relevantes, como tipo, habilidades e estatísticas.",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Integração com API",
+        color: "green-text-gradient",
+      }
+    ],
+    image: pokedex,
+    source_code_link: "https://github.com/3vinicius/pokedex-angular/tree/main",
   },
   {
     name: "LinkedIn Connect Automator",

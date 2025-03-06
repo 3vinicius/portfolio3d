@@ -44,12 +44,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-xl leading-[30px]"
       >
-        Olá, eu sou um professor de Física em transição de carreira para o
-        universo da programação. Minha principal habilidade é a paixão por
-        aprender conceitos novos, principalmente se forem desconhecidos.
-        Atualmente, tenho estudado projetos de back-end e front-end em diversas
-        linguagens e frameworks. As que tenho mais familiaridade são Angular,
-        React e Spring Boot.
+        Olá! Sou um desenvolvedor Full Stack com foco principal em Angular e Java. 
+        No entanto, tenho experiência em diversas outras tecnologias como React, Kotlin, 
+        Node.js, Python e várias outras stacks de desenvolvimento. Minha formação 
+        acadêmica em Física me proporciona uma forte base em Estatística, 
+        o que permite o desenvolvimento em projetos relacionados a Big Data.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

@@ -80,8 +80,7 @@ const Works = () => {
         >
           Os projetos abaixo foram desenvolvidos durante cursos ou para
           aprendizagem pessoal. Cada projeto possui um link para o repositório
-          de código. Isso demonstra minha capacidade de trabalhar com diferentes
-          tecnologias.
+          de código.
         </motion.p>
       </div>
 
