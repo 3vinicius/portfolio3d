@@ -28,6 +28,7 @@ import {
   playstation,
   extencao,
   ecommerce,
+  louveApp 
 } from "../assets";
 
 
@@ -162,6 +163,23 @@ const experiences = [
 
 
 const projects = [
+{
+    name: "LouveFeedback",
+    description:
+          "Neste projeto, desenvolvemos a API do LouveAPP utilizando Kotlin e Spring Boot, com integração ao banco de dados PostgreSQL. A API gerencia usuários, músicas e feedbacks dos usuários, oferecendo endpoints para interação com o aplicativo móvel. Utilizamos a biblioteca **react-native-youtube-iframe** para integração com o YouTube no aplicativo React Native"      
+    tags: [
+      {
+        name: "React Native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SpringBoot Kotlin",
+        color: "green-text-gradient",
+      }
+    ],
+    image: louveApp,
+    source_code_link: "https://github.com/3vinicius/REACT_MOBILE",
+  },
   {
     name: "Playstore",
     description:
