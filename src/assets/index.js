@@ -43,7 +43,7 @@ import ecommerce from "./projects/ecommerce.png";
 import extencao from "./projects/extencao.png";
 import playstation from "./projects/playstation.png";
 import louveApp from "./projects/imageApp.png"
-
+import pokedex from "./projects/pokedex.png"
 
 import githubIcon from "./connect/github.png";
 import linkedinIcon from "./connect/linkedin.png"
@@ -93,5 +93,6 @@ export {
   spring,
   java,
   myImg,
-  louveApp 
+  louveApp,
+  pokedex
 };

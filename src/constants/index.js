@@ -28,7 +28,8 @@ import {
   playstation,
   extencao,
   ecommerce,
-  louveApp 
+  louveApp,
+  pokedex
 } from "../assets";
 
 
@@ -163,6 +164,23 @@ const experiences = [
 
 
 const projects = [
+  {
+    name: "PokedexAngular",
+    description:
+         "Este projeto consiste em uma aplicação que permite buscar informações detalhadas sobre Pokémon. Através de uma interface simples, o usuário pode realizar pesquisas por nome , visualizar suas características e dados relevantes, como tipo, habilidades e estatísticas.",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Integração com API",
+        color: "green-text-gradient",
+      }
+    ],
+    image: pokedex,
+    source_code_link: "https://github.com/3vinicius/pokedex-angular/tree/main",
+  },
 {
     name: "LouveFeedback",
     description:
