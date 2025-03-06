@@ -166,7 +166,7 @@ const projects = [
 {
     name: "LouveFeedback",
     description:
-          "Neste projeto, desenvolvemos a API do LouveAPP utilizando Kotlin e Spring Boot, com integração ao banco de dados PostgreSQL. A API gerencia usuários, músicas e feedbacks dos usuários, oferecendo endpoints para interação com o aplicativo móvel. Utilizamos a biblioteca **react-native-youtube-iframe** para integração com o YouTube no aplicativo React Native"      
+          "Neste projeto, desenvolvemos a API do LouveAPP utilizando Kotlin e Spring Boot, com integração ao banco de dados PostgreSQL. A API gerencia usuários, músicas e feedbacks dos usuários, oferecendo endpoints para interação com o aplicativo móvel. Utilizamos a biblioteca **react-native-youtube-iframe** para integração com o YouTube no aplicativo React Native",      
     tags: [
       {
         name: "React Native",
