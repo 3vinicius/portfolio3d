@@ -42,6 +42,7 @@ import ufal from "./certification/ufal.png";
 import ecommerce from "./projects/ecommerce.png";
 import extencao from "./projects/extencao.png";
 import playstation from "./projects/playstation.png";
+import louveApp from "./projects/imageApp.png"
 
 
 import githubIcon from "./connect/github.png";
@@ -91,5 +92,6 @@ export {
   angular,
   spring,
   java,
-  myImg
+  myImg,
+  louveApp 
 };
