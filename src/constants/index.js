@@ -205,6 +205,10 @@ const projects = [
         color: "green-text-gradient",
       },
       {
+        name: "Streamlit",
+        color: "red-text-gradient"
+      },
+      {
         name: "Plotly",
         color: "pink-text-gradient"
       },
