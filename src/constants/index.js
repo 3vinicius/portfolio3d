@@ -32,7 +32,8 @@ import {
   pokedex,
   prefeitura,
   posAnalise,
-  posEnge
+  posEnge, 
+  dashBoard
 } from "../assets";
 
 
@@ -190,7 +191,27 @@ const experiences = [
 
 
 const projects = [
- 
+  {
+    name: "Dash Board yfinance",
+    description:
+          "Dashboard interativo para a consulta de ações financeiras utilizando Streamlit + Pandas e Plotly, tornando de ações mais acessível e dinâmica",      
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Pandas",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Plotly",
+        color: "pink-text-gradient"
+      },
+    ],
+    image: dashBoard,
+    source_code_link: "https://github.com/3vinicius/yfinacesDashBoard",
+  },
 {
     name: "LouveFeedback",
     description:
@@ -266,7 +287,7 @@ const projects = [
   {
     name: "Ecommerce",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Projeto de criação de telas para Ecommerce, usando componentes do Angular e css",
     tags: [
       {
         name: "JavaScript",
